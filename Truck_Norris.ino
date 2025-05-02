@@ -66,7 +66,7 @@ void turnLeft() {
     // Adjust motor speeds to turn left (e.g., stop right motor or reduce speed)
     //analogWrite(leftMotorPin, 0); // Left motor stops
     //analogWrite(rightMotorPin, 255); // Right motor full speed
-    digitalWrite(M1A, LOW);
+    digitalWrite(M1A, HIGH);
     digitalWrite(M1B, LOW);
     digitalWrite(M2A, HIGH);
     digitalWrite(M2B, LOW);
@@ -80,7 +80,7 @@ void turnRight() {
     digitalWrite(M1A, LOW);
     digitalWrite(M1B, HIGH);
     digitalWrite(M2A, LOW);
-    digitalWrite(M2B, LOW);
+    digitalWrite(M2B, HIGH);
   
 }
 
