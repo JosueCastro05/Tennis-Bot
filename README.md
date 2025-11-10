@@ -36,5 +36,6 @@ The ESP32 communicates with a Bluetooth controller that sends commands (e.g., mo
 - Include battery level monitoring  
 
 ## Author
-Developed by **Josue Castro**  
+**Developed by:** Josue Castro  
+**Project Collaboration:** Theta Tau – Xi Epsilon Chapter, Omicron Class
 Computer Science Student @ California State University, Long Beach  
